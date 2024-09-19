@@ -1,0 +1,172 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "DankMono Nerd Font",
+    "editor.fontWeight": "normal",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.lineHeight": 28,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontLigatures": true,
+    "open-in-browser.default": "chrome",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Dracula At Night",
+    "workbench.editorAssociations": {
+        "*.js": "default",
+        "*.pdf": "default"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": ["javascript"],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.foldingMaximumRegions": 10000,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.quoteProps": "as-needed",
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 100,
+    "prettier.arrowParens": "avoid",
+    "editor.rulers": [150],
+    "terminal.integrated.smoothScrolling": true,
+    "[python]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnType": true
+    },
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/bin/zsh -l",
+            "args": ["-l"]
+        }
+    },
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "remote.SSH.remotePlatform": {
+        "156.67.214.119": "linux"
+    },
+
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "JetBrains Mono,monospace",
+    "terminal.integrated.fontSize": 14,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[prisma]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "dart.flutterSdkPath": "/Users/kelvinhandoko/flutterSDK/flutter",
+    "git.ignoreRebaseWarning": true,
+    "editor.formatOnSave": true,
+    "prettier.semi": false,
+    "editor.cursorBlinking": "expand",
+    "workbench.editor.empty.hint": "hidden",
+    "[css]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "files.associations": {
+        "*.css": "css"
+    },
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": ["-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": ["-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": ["%DOCFILE%"],
+            "env": {}
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdfLaTeX",
+            "tools": ["pdflatex"]
+        },
+        {
+            "name": "latexmk 🔃",
+            "tools": ["latexmk"]
+        },
+        {
+            "name": "xelatex",
+            "tools": ["xelatex"]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
+            "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+        },
+        {
+            "name": "xelatex ➞ bibtex ➞ xelatex`×2",
+            "tools": ["xelatex", "bibtex", "xelatex", "xelatex"]
+        }
+    ],
+    "files.autoSave": "afterDelay",
+    "material-ui-snippets.showNotesOnStartup": false,
+
+    "terminal.integrated.stickyScroll.enabled": true,
+    "editor.stickyScroll.enabled": true,
+
+    "[plantuml]": {
+        "editor.defaultFormatter": "jebbs.plantuml",
+        "editor.formatOnSave": false
+    },
+
+    "tailwindCSS.experimental.classRegex": [
+        ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^'\"`]*)(?:'|\"|`)"],
+        ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+        ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^'\"`]*)(?:'|\"|`)"]
+    ],
+    "tailwindCSS.classAttributes": [
+        "class",
+        "className",
+        "ngClass",
+        "class:list",
+        "thumbClassName"
+    ],
+
+    "markdown-preview-enhanced.revealjsTheme": "moon.css",
+    "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "workbench.editor.customLabels.patterns": {
+        "**/{layout,page}.tsx": "${dirname} ${filename}"
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false
+}
